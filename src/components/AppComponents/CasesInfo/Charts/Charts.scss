@@ -1,0 +1,88 @@
+@import '../../../../sass/varibales.scss';
+
+
+.charts{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    @media only screen and (max-width : $secondbrk){
+        flex: 0.55;
+    }
+      @media only screen and (max-width : $tenthbrk){
+          width : 100%
+      }
+    h3{
+        margin: 0;
+         @media only screen and (max-width : $helpingbrk2){
+               font-size : 1rem
+         }
+        span{
+            &:first-child{
+                color : $base-col-typo;
+            }
+            &:last-child{
+                color : $base-col
+            }
+        }
+    }
+    &-rate{
+        display :flex;
+        grid-gap : 0.9rem;
+        margin-top : 0.5rem;
+          @media only screen and (max-width : $leventhbrk){
+                justify-content : space-between;
+                grid-gap : 0.2rem;
+              }
+         @media only screen and (max-width : $thirteenthbrk){
+             flex-direction : column
+         }
+    }
+    &-updated{
+        font-size: $small;
+        margin: 0;
+        display: flex;
+        grid-column-gap: 0.3rem;
+        align-items: center;
+        &--1{
+            display: flex;
+            align-items: center;
+            grid-column-gap: 0.6rem;
+            font-weight: $h1;
+            &::before{
+                width : 20px;
+                height: 20px;
+                border-radius: 50%;
+                content: '';
+                background: linear-gradient(145deg, #ffd681, #ddb46d);
+            }
+        }
+        &--2{
+            font-weight: $h6;
+            color: $base-col-typo;
+        }
+    }
+    &-btn{
+        margin-top: 1rem;
+        text-decoration: none;
+       .button{
+           padding: 0.1rem 1.4rem;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           width: 100%;
+           grid-column-gap: 0.3rem;
+           background: $primary-gradient;
+           box-shadow : 0px 5px 20px rgba(#ffd681,0.3);
+           color: $base1;
+           span:first-child{
+               display: flex;
+               justify-content: center;
+            svg{
+                width: 20px;
+                fill: $base1;
+            }
+           }
+       }
+    }
+}
+
