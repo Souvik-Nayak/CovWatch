@@ -1,4 +1,7 @@
-<p align="center"><b>COVID-19 TRACKING APP</b></p>
+<p align="center">
+  <a href="https://covwatch-19.herokuapp.com/">
+    <h2 align="center">COVID-19 Tracker App</h2>
+  </a>
 <br>
 
 ## About The Project
@@ -33,10 +36,11 @@ The Project is created with updating the audience with daily rising cases all ov
     yarn test
     ```
 
-* Install dependencies.
+* Builds the app for production to the build folder and It correctly bundles React in production mode. Your app is ready to be deployed !
 
     ```sh
-    yarn install
+    yarn build
     ```
+## Dashboard Design
 
 ![image](https://user-images.githubusercontent.com/53304368/134397643-daaace36-a7e0-46a4-9c4f-4b5ade8687b0.png)
