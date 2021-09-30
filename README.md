@@ -41,6 +41,7 @@ The Project is created with updating the audience with daily rising cases all ov
     ```sh
     yarn build
     ```
+
 ## Dashboard Design
 
 ![image](https://user-images.githubusercontent.com/53304368/134397643-daaace36-a7e0-46a4-9c4f-4b5ade8687b0.png)
