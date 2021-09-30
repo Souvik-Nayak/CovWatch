@@ -2,7 +2,6 @@
   <a href="https://covwatch-19.herokuapp.com/">
     <h2 align="center">COVID-19 Tracker App</h2>
   </a>
-<br>
 
 ## About The Project
 
